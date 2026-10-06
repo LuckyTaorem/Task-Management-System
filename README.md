@@ -499,23 +499,6 @@ Security is treated as a first-class feature.
 
 ---
 
-# 📈 Future Improvements
-
-Some planned enhancements:
-
-- [ ] 🔔 Real-time notifications
-- [ ] 📅 Calendar-based task view
-- [ ] 📊 Productivity analytics
-- [ ] 🌙 Advanced dark mode
-- [ ] 🏷️ Custom task labels
-- [ ] 👥 Team collaboration
-- [ ] 💬 Task comments
-- [ ] 📎 File attachments
-- [ ] 🔄 Real-time synchronization
-- [ ] 📱 PWA support
-
----
-
 # 🤝 Contributing
 
 Contributions are welcome! 💜
@@ -557,7 +540,7 @@ If you found this project useful, consider giving it a ⭐ on GitHub.
 
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/YOUR_GITHUB_ID" width="100" style="border-radius:50%;" alt="Author">
+<img src="https://avatars.githubusercontent.com/u/LuckyTaorem" width="100" style="border-radius:50%;" alt="Author">
 
 ### **Taorem Lucky Singh**
 
@@ -571,12 +554,12 @@ If you found this project useful, consider giving it a ⭐ on GitHub.
 <img src="https://img.shields.io/badge/GitHub-LuckyTaorem-181717?style=for-the-badge&logo=github">
 </a>
 
-<a href="https://taoremtls.in/">
-<img src="https://img.shields.io/badge/Portfolio-taoremtls.in-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white">
+<a href="http://luckytaorem.github.io/">
+<img src="https://img.shields.io/badge/Portfolio-luckytaorem.github.io-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white">
 </a>
 
-<a href="https://www.linkedin.com/in/luckytaorem/">
-<img src="https://img.shields.io/badge/LinkedIn-Lucky%20Taorem-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+<a href="https://www.linkedin.com/in/taorem-lucky-singh">
+<img src="https://img.shields.io/badge/LinkedIn-taorem-lucky-singh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 
 <br><br>
