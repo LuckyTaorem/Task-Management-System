@@ -540,7 +540,7 @@ If you found this project useful, consider giving it a ⭐ on GitHub.
 
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/LuckyTaorem" width="100" style="border-radius:50%;" alt="Author">
+<img src="https://avatars.githubusercontent.com/u/67669132" width="100" style="border-radius:50%;" alt="Author">
 
 ### **Taorem Lucky Singh**
 
@@ -559,7 +559,7 @@ If you found this project useful, consider giving it a ⭐ on GitHub.
 </a>
 
 <a href="https://www.linkedin.com/in/taorem-lucky-singh">
-<img src="https://img.shields.io/badge/LinkedIn-taorem-lucky-singh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+<img src="https://img.shields.io/badge/LinkedIn-taorem%20lucky%20singh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 
 <br><br>
