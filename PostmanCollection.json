@@ -20,9 +20,9 @@
               "raw": "{\n  \"name\": \"Lucky Singh\",\n  \"email\": \"lucky@example.com\",\n  \"password\": \"securepassword123\"\n}"
             },
             "url": {
-              "raw": "{{baseUrl}}/auth/register",
+              "raw": "{{baseUrl}}/api/auth/register",
               "host": ["{{baseUrl}}"],
-              "path": ["auth", "register"]
+              "path": ["api", "auth", "register"]
             }
           }
         },
@@ -53,9 +53,9 @@
               "raw": "{\n  \"email\": \"lucky@example.com\",\n  \"password\": \"securepassword123\"\n}"
             },
             "url": {
-              "raw": "{{baseUrl}}/auth/login",
+              "raw": "{{baseUrl}}/api/auth/login",
               "host": ["{{baseUrl}}"],
-              "path": ["auth", "login"]
+              "path": ["api", "auth", "login"]
             },
             "description": "Logs in the user and automatically saves the JWT to the `token` variable for subsequent requests."
           }
@@ -70,9 +70,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{baseUrl}}/auth/profile",
+              "raw": "{{baseUrl}}/api/auth/profile",
               "host": ["{{baseUrl}}"],
-              "path": ["auth", "profile"]
+              "path": ["api", "auth", "profile"]
             }
           }
         },
@@ -92,9 +92,9 @@
               "raw": "{\n  \"name\": \"Lucky Singh\",\n  \"phone\": \"+91 98765 43210\",\n  \"location\": \"Noida, UP\",\n  \"portfolio\": \"http://luckytaorem.github.io\",\n  \"github\": \"luckytaorem\"\n}"
             },
             "url": {
-              "raw": "{{baseUrl}}/auth/profile",
+              "raw": "{{baseUrl}}/api/auth/profile",
               "host": ["{{baseUrl}}"],
-              "path": ["auth", "profile"]
+              "path": ["api", "auth", "profile"]
             }
           }
         },
@@ -114,9 +114,9 @@
               "raw": "{\n  \"currentPassword\": \"securepassword123\",\n  \"newPassword\": \"newsecurepassword456\"\n}"
             },
             "url": {
-              "raw": "{{baseUrl}}/auth/password",
+              "raw": "{{baseUrl}}/api/auth/password",
               "host": ["{{baseUrl}}"],
-              "path": ["auth", "password"]
+              "path": ["api", "auth", "password"]
             }
           }
         }
@@ -156,9 +156,9 @@
               "raw": "{\n  \"title\": \"Integrate Postman Collection\",\n  \"description\": \"Test all endpoints and verify database updates.\",\n  \"dueDate\": \"2026-10-25\",\n  \"priority\": \"High\",\n  \"status\": \"Pending\"\n}"
             },
             "url": {
-              "raw": "{{baseUrl}}/tasks",
+              "raw": "{{baseUrl}}/api/tasks",
               "host": ["{{baseUrl}}"],
-              "path": ["tasks"]
+              "path": ["api", "tasks"]
             },
             "description": "Creates a task and saves its ID to the `taskId` variable."
           }
@@ -173,9 +173,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{baseUrl}}/tasks?page=1&limit=10",
+              "raw": "{{baseUrl}}/api/tasks?page=1&limit=10",
               "host": ["{{baseUrl}}"],
-              "path": ["tasks"],
+              "path": ["api", "tasks"],
               "query": [
                 { "key": "page", "value": "1", "description": "Page number" },
                 { "key": "limit", "value": "10", "description": "Items per page" },
@@ -196,9 +196,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{baseUrl}}/tasks/{{taskId}}",
+              "raw": "{{baseUrl}}/api/tasks/{{taskId}}",
               "host": ["{{baseUrl}}"],
-              "path": ["tasks", "{{taskId}}"]
+              "path": ["api", "tasks", "{{taskId}}"]
             }
           }
         },
@@ -218,9 +218,9 @@
               "raw": "{\n  \"status\": \"In Progress\"\n}"
             },
             "url": {
-              "raw": "{{baseUrl}}/tasks/{{taskId}}",
+              "raw": "{{baseUrl}}/api/tasks/{{taskId}}",
               "host": ["{{baseUrl}}"],
-              "path": ["tasks", "{{taskId}}"]
+              "path": ["api", "tasks", "{{taskId}}"]
             }
           }
         },
@@ -234,9 +234,9 @@
             "method": "DELETE",
             "header": [],
             "url": {
-              "raw": "{{baseUrl}}/tasks/{{taskId}}",
+              "raw": "{{baseUrl}}/api/tasks/{{taskId}}",
               "host": ["{{baseUrl}}"],
-              "path": ["tasks", "{{taskId}}"]
+              "path": ["api", "tasks", "{{taskId}}"]
             }
           }
         }
@@ -246,7 +246,7 @@
   "variable": [
     {
       "key": "baseUrl",
-      "value": "https://task-management-system-qo53.onrender.com/api",
+      "value": "https://task-management-system-qo53.onrender.com",
       "type": "string"
     },
     {
