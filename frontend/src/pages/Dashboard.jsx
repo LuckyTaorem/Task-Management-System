@@ -302,8 +302,15 @@ const Dashboard = () => {
       {/* DASHBOARD HEADER */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 gap-5 bg-white p-6 rounded-3xl shadow-sm border border-slate-100">
         <div className="flex items-center gap-4">
-          <div className="w-14 h-14 bg-indigo-100 rounded-2xl flex items-center justify-center text-indigo-600 text-xl font-bold">
-            {user?.name?.charAt(0).toUpperCase()}
+          {/* Smooth Dashboard Avatar */}
+          <div className="w-14 h-14 bg-white rounded-full p-1 shadow-sm shrink-0 border border-slate-100">
+            <div className="w-full h-full bg-indigo-100 rounded-full flex items-center justify-center text-indigo-600 text-xl font-bold overflow-hidden">
+              {user?.avatar ? (
+                <img src={user.avatar} alt="Profile" className="w-full h-full object-cover" />
+              ) : (
+                user?.name?.charAt(0).toUpperCase()
+              )}
+            </div>
           </div>
           <div>
             <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">Dashboard</h1>
