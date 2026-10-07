@@ -32,6 +32,11 @@ app.use((req, res, next) => {
 app.use(express.json({ limit: '5mb' }));
 app.use(express.urlencoded({ limit: '5mb', extended: true }));
 
+// Keep-Alive endpoint for Cron Jobs
+app.get('/ping', (req, res) => {
+  res.status(200).json({ status: 'awake', time: new Date().toISOString() });
+});
+
 // 5. Routes
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/tasks', require('./routes/taskRoutes'));
